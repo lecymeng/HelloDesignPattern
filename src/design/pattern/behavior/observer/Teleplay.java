@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by Weicools on 2018/3/16.
  * <p>
- * desc:
+ * desc: 具体的被观察者类，也就是订阅的节目
  */
 public class Teleplay extends Subject {
     private List<Observer> mObserverList = new ArrayList<>();//储存订阅者

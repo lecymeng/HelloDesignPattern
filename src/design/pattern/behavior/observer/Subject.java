@@ -3,7 +3,7 @@ package design.pattern.behavior.observer;
 /**
  * Created by Weicools on 2018/3/16.
  * <p>
- * desc:
+ * desc: 抽象被观察者类
  */
 public abstract class Subject {
     /**
