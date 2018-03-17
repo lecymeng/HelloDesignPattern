@@ -13,10 +13,10 @@ public class Test {
         User user3 = new User("ZZZ");
 
         // 被观察者, 用户订阅的……
-        Teleplay teleplay = new Teleplay();
-        teleplay.addObserver(user1);
-        teleplay.addObserver(user2);
-        teleplay.addObserver(user3);
-        teleplay.pushMsg("仙剑奇侠传");
+        Animation animation = new Animation();
+        animation.addObserver(user1);
+        animation.addObserver(user2);
+        animation.addObserver(user3);
+        animation.pushMsg("境界的彼方");
     }
 }
