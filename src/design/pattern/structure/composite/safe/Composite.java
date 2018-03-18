@@ -1,4 +1,4 @@
-package design.pattern.structure.composite;
+package design.pattern.structure.composite.safe;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by Weicools on 2017/3/17.
  * <p>
- * desc: 具体分支节点
+ * desc: 具体分支节点，定义有子节点行为
  */
 public class Composite extends Component {
     /**

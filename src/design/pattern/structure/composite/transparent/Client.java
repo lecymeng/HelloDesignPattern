@@ -1,9 +1,9 @@
-package design.pattern.structure.composite;
+package design.pattern.structure.composite.transparent;
 
 /**
  * Created by Weicools on 2017/3/18.
  * <p>
- * desc: 客户类
+ * desc: 通过Component接口操纵组合节点的对象
  */
 public class Client {
     public static void main(String[] args) {
