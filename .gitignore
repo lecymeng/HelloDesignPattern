@@ -1,4 +1,16 @@
 # Created by .ignore support plugin (hsz.mobi)
 # awesome-design-pattern.iml
 out/
-.idea/inspectionProfiles/
+.idea
+
+*.iml
+
+.gradle
+/gradle
+/local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.vscode
+.settings
