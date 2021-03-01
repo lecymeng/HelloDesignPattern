@@ -6,22 +6,22 @@ package design.pattern.structure.decorator.sample;
  * desc:
  */
 public class CheapCloth extends PersonCloth {
-    public CheapCloth(Person person) {
-        super(person);
-    }
+  public CheapCloth(Person person) {
+    super(person);
+  }
 
-    private void dressShirt() {
-        System.out.println("穿件短袖");
-    }
+  private void dressShirt() {
+    System.out.println("穿件短袖");
+  }
 
-    private void dressShort() {
-        System.out.println("穿条短裤");
-    }
+  private void dressShort() {
+    System.out.println("穿条短裤");
+  }
 
-    @Override
-    public void dressed() {
-        super.dressed();
-        dressShirt();
-        dressShort();
-    }
+  @Override
+  public void dressed() {
+    super.dressed();
+    dressShirt();
+    dressShort();
+  }
 }

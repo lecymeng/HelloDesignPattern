@@ -5,9 +5,9 @@ package design.pattern.creator.singleton;
  * 静态内部类,枚举方式,线程安全[推荐]
  **/
 public enum EnumSingleton {
-    INSTANCE;
+  INSTANCE;
 
-    public void whateverMethod() {
+  public void whateverMethod() {
 
-    }
+  }
 }

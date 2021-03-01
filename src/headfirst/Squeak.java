@@ -2,7 +2,7 @@ package headfirst;
 
 public class Squeak implements QuackBehavior {
   @Override
-  public void quack () {
+  public void quack() {
     System.out.println("Squeak");
   }
 }

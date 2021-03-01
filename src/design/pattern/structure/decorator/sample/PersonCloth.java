@@ -6,15 +6,15 @@ package design.pattern.structure.decorator.sample;
  * desc:
  */
 public abstract class PersonCloth extends Person {
-    protected Person mPerson;
+  protected Person mPerson;
 
-    public PersonCloth(Person person) {
-        mPerson = person;
-    }
+  public PersonCloth(Person person) {
+    mPerson = person;
+  }
 
-    @Override
-    public void dressed() {
-        //调用Person的dressed()方法
-        mPerson.dressed();
-    }
+  @Override
+  public void dressed() {
+    //调用Person的dressed()方法
+    mPerson.dressed();
+  }
 }

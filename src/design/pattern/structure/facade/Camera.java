@@ -6,18 +6,18 @@ package design.pattern.structure.facade;
  * desc:
  */
 public interface Camera {
-    /**
-     * 打开相机
-     */
-    void open();
+  /**
+   * 打开相机
+   */
+  void open();
 
-    /**
-     * 拍照
-     */
-    void takePicture();
+  /**
+   * 拍照
+   */
+  void takePicture();
 
-    /**
-     * 关闭相机
-     */
-    void close();
+  /**
+   * 关闭相机
+   */
+  void close();
 }

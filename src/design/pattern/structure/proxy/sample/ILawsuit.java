@@ -6,23 +6,23 @@ package design.pattern.structure.proxy.sample;
  * desc: 诉讼接口类
  */
 public interface ILawsuit {
-    /**
-     * 提交申请
-     */
-    void submit();
+  /**
+   * 提交申请
+   */
+  void submit();
 
-    /**
-     * 禁行举证
-     */
-    void burden();
+  /**
+   * 禁行举证
+   */
+  void burden();
 
-    /**
-     * 开始辩护
-     */
-    void defend();
+  /**
+   * 开始辩护
+   */
+  void defend();
 
-    /**
-     * 诉讼完成
-     */
-    void finish();
+  /**
+   * 诉讼完成
+   */
+  void finish();
 }

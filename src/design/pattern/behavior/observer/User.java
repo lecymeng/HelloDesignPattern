@@ -6,14 +6,14 @@ package design.pattern.behavior.observer;
  * desc: 具体的观察者类，也就是订阅者
  */
 public class User implements Observer {
-    private String mName;
+  private String mName;
 
-    public User(String name) {
-        mName = name;
-    }
+  public User(String name) {
+    mName = name;
+  }
 
-    @Override
-    public void update(String message) {
-        System.out.println(mName + ": 订阅的" + message + "更新了");
-    }
+  @Override
+  public void update(String message) {
+    System.out.println(mName + ": 订阅的" + message + "更新了");
+  }
 }

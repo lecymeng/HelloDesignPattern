@@ -6,8 +6,8 @@ package design.pattern.structure.decorator.sample;
  * desc:
  */
 public class Boy extends Person {
-    @Override
-    public void dressed() {
-        System.out.println("Boy穿了内衣内裤");
-    }
+  @Override
+  public void dressed() {
+    System.out.println("Boy穿了内衣内裤");
+  }
 }

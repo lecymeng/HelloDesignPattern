@@ -6,7 +6,7 @@ package design.pattern.structure.adapter.power_adapter_object;
  * desc: Adaptee 角色
  */
 public class Volt220 {
-    public int getVolt220() {
-        return 220;
-    }
+  public int getVolt220() {
+    return 220;
+  }
 }

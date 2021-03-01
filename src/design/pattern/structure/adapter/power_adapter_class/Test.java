@@ -9,8 +9,8 @@ package design.pattern.structure.adapter.power_adapter_class;
  * 将220V转为5V，解决接口不兼容问题
  */
 public class Test {
-    public static void main(String[] args) {
-        VoltAdapter adapter = new VoltAdapter();
-        System.out.println("输出电压: " + adapter.getVolt5());
-    }
+  public static void main(String[] args) {
+    VoltAdapter adapter = new VoltAdapter();
+    System.out.println("输出电压: " + adapter.getVolt5());
+  }
 }

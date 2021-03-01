@@ -6,14 +6,14 @@ package design.pattern.structure.decorator;
  * desc: 抽象装饰者
  */
 public abstract class Decorator extends Component {
-    private Component mComponent;
+  private Component mComponent;
 
-    public Decorator(Component component) {
-        mComponent = component;
-    }
+  public Decorator(Component component) {
+    mComponent = component;
+  }
 
-    @Override
-    public void operator() {
-        mComponent.operator();
-    }
+  @Override
+  public void operator() {
+    mComponent.operator();
+  }
 }

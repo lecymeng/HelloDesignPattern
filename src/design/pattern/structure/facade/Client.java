@@ -6,11 +6,11 @@ package design.pattern.structure.facade;
  * desc:
  */
 public class Client {
-    public static void main(String[] args) {
-        MobileFacade mobileFacade = new MobileFacade();
+  public static void main(String[] args) {
+    MobileFacade mobileFacade = new MobileFacade();
 
-        mobileFacade.videoChat();
-        mobileFacade.takePicture();
-        mobileFacade.closeCamera();
-    }
+    mobileFacade.videoChat();
+    mobileFacade.takePicture();
+    mobileFacade.closeCamera();
+  }
 }

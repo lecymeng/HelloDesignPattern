@@ -6,29 +6,29 @@ package design.pattern.structure.proxy.sample;
  * desc: 代理律师
  */
 public class ProxyLayer implements ILawsuit {
-    private ILawsuit mLawsuit;
+  private ILawsuit mLawsuit;
 
-    public ProxyLayer(ILawsuit lawsuit) {
-        mLawsuit = lawsuit;
-    }
+  public ProxyLayer(ILawsuit lawsuit) {
+    mLawsuit = lawsuit;
+  }
 
-    @Override
-    public void submit() {
-        mLawsuit.submit();
-    }
+  @Override
+  public void submit() {
+    mLawsuit.submit();
+  }
 
-    @Override
-    public void burden() {
-        mLawsuit.burden();
-    }
+  @Override
+  public void burden() {
+    mLawsuit.burden();
+  }
 
-    @Override
-    public void defend() {
-        mLawsuit.defend();
-    }
+  @Override
+  public void defend() {
+    mLawsuit.defend();
+  }
 
-    @Override
-    public void finish() {
-        mLawsuit.finish();
-    }
+  @Override
+  public void finish() {
+    mLawsuit.finish();
+  }
 }

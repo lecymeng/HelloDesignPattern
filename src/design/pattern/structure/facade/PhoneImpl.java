@@ -6,13 +6,13 @@ package design.pattern.structure.facade;
  * desc: 电话模块实现
  */
 public class PhoneImpl implements Phone {
-    @Override
-    public void call() {
-        System.out.println("打电话");
-    }
+  @Override
+  public void call() {
+    System.out.println("打电话");
+  }
 
-    @Override
-    public void hangUp() {
-        System.out.println("挂断电话");
-    }
+  @Override
+  public void hangUp() {
+    System.out.println("挂断电话");
+  }
 }

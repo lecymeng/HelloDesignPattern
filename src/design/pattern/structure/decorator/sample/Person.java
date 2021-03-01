@@ -6,8 +6,8 @@ package design.pattern.structure.decorator.sample;
  * desc:
  */
 public abstract class Person {
-    /**
-     * 穿着
-     */
-    public abstract void dressed();
+  /**
+   * 穿着
+   */
+  public abstract void dressed();
 }

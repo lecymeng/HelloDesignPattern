@@ -6,22 +6,22 @@ package design.pattern.structure.decorator;
  * desc: 装饰者具体实现类
  */
 public class ConcreteDecoratorB extends Decorator {
-    public ConcreteDecoratorB(Component component) {
-        super(component);
-    }
+  public ConcreteDecoratorB(Component component) {
+    super(component);
+  }
 
-    @Override
-    public void operator() {
-        super.operator();
-        operatorA();
-        operatorB();
-    }
+  @Override
+  public void operator() {
+    super.operator();
+    operatorA();
+    operatorB();
+  }
 
-    public void operatorA() {
+  public void operatorA() {
 
-    }
+  }
 
-    public void operatorB() {
+  public void operatorB() {
 
-    }
+  }
 }

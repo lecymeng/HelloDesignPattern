@@ -6,15 +6,15 @@ package design.pattern.structure.decorator.sample;
  * desc:
  */
 public class Test {
-    public static void main(String[] args) {
-        Person person = new Boy();
+  public static void main(String[] args) {
+    Person person = new Boy();
 
-        PersonCloth cheapCloth = new CheapCloth(person);
-        cheapCloth.dressed();
+    PersonCloth cheapCloth = new CheapCloth(person);
+    cheapCloth.dressed();
 
-        System.out.println("*************");
+    System.out.println("*************");
 
-        PersonCloth expensiveCloth = new ExpensiveCloth(person);
-        expensiveCloth.dressed();
-    }
+    PersonCloth expensiveCloth = new ExpensiveCloth(person);
+    expensiveCloth.dressed();
+  }
 }

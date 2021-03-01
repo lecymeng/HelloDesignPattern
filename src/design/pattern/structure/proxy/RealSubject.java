@@ -7,8 +7,8 @@ package design.pattern.structure.proxy;
  */
 public class RealSubject extends Subject {
 
-    @Override
-    public void visit() {
-        System.out.println("Real subject");
-    }
+  @Override
+  public void visit() {
+    System.out.println("Real subject");
+  }
 }

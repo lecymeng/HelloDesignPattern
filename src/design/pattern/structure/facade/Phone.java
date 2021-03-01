@@ -6,13 +6,13 @@ package design.pattern.structure.facade;
  * desc:
  */
 public interface Phone {
-    /**
-     * 打电话
-     */
-    void call();
+  /**
+   * 打电话
+   */
+  void call();
 
-    /**
-     * 挂断
-     */
-    void hangUp();
+  /**
+   * 挂断
+   */
+  void hangUp();
 }

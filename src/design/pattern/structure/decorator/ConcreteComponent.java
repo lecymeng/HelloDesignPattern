@@ -6,8 +6,8 @@ package design.pattern.structure.decorator;
  * desc: 具体组件实现类
  */
 public class ConcreteComponent extends Component {
-    @Override
-    public void operator() {
-        // 具体逻辑
-    }
+  @Override
+  public void operator() {
+    // 具体逻辑
+  }
 }

@@ -5,15 +5,15 @@ package design.pattern.creator.singleton;
  * 单例模式,饿汉式,变种-线程不安全
  **/
 public class StaticSingleton {
-    private static StaticSingleton sInstance = null;
+  private static StaticSingleton sInstance = null;
 
-    static {
-        sInstance = new StaticSingleton();
-    }
-    
-    private StaticSingleton() {}
+  static {
+    sInstance = new StaticSingleton();
+  }
 
-    public static StaticSingleton getInstance() {
-        return sInstance;
-    }
+  private StaticSingleton() {}
+
+  public static StaticSingleton getInstance() {
+    return sInstance;
+  }
 }

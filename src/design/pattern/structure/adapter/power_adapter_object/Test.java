@@ -9,8 +9,8 @@ package design.pattern.structure.adapter.power_adapter_object;
  * 比类适配器更加灵活，适配对象的方法也不会暴露出来
  */
 public class Test {
-    public static void main(String[] args) {
-        VoltAdapter adapter = new VoltAdapter(new Volt220());
-        System.out.println("输出电压: " + adapter.getVolt5());
-    }
+  public static void main(String[] args) {
+    VoltAdapter adapter = new VoltAdapter(new Volt220());
+    System.out.println("输出电压: " + adapter.getVolt5());
+  }
 }

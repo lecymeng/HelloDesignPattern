@@ -6,17 +6,17 @@ package design.pattern.structure.proxy;
  * desc: 代理类，持有真实主题的引用，它实现的接口方法中调用真实主题的方法
  */
 public class ProxySubject extends Subject {
-    private Subject mRealSubject;
+  private Subject mRealSubject;
 
-    public ProxySubject(Subject subject) {
-        mRealSubject = subject;
-    }
+  public ProxySubject(Subject subject) {
+    mRealSubject = subject;
+  }
 
-    @Override
-    public void visit() {
-        System.out.println("Proxy subject");
+  @Override
+  public void visit() {
+    System.out.println("Proxy subject");
 
-        // 调用真实主题方法
-        mRealSubject.visit();
-    }
+    // 调用真实主题方法
+    mRealSubject.visit();
+  }
 }

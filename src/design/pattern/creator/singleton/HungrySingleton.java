@@ -5,14 +5,14 @@ package design.pattern.creator.singleton;
  * 单例模式,饿汉式,线程不安全
  */
 public class HungrySingleton {
-    private static HungrySingleton sInstance = null;
+  private static HungrySingleton sInstance = null;
 
-    private HungrySingleton() {}
+  private HungrySingleton() {}
 
-    public static HungrySingleton getInstance() {
-        if (sInstance == null) {
-            sInstance = new HungrySingleton();
-        }
-        return sInstance;
+  public static HungrySingleton getInstance() {
+    if (sInstance == null) {
+      sInstance = new HungrySingleton();
     }
+    return sInstance;
+  }
 }

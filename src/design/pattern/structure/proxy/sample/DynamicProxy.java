@@ -9,15 +9,15 @@ import java.lang.reflect.Method;
  * desc: 动态代理类
  */
 public class DynamicProxy implements InvocationHandler {
-    // 被代理类的引用
-    private Object mObject;
+  // 被代理类的引用
+  private Object mObject;
 
-    public DynamicProxy(Object o) {
-        mObject = o;
-    }
+  public DynamicProxy(Object o) {
+    mObject = o;
+  }
 
-    @Override
-    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        return method.invoke(mObject, args);
-    }
+  @Override
+  public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+    return method.invoke(mObject, args);
+  }
 }

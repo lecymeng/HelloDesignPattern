@@ -7,5 +7,5 @@ package design.pattern.structure.proxy;
  * 可以是抽象类也可以是接口
  */
 public abstract class Subject {
-    public abstract void visit();
+  public abstract void visit();
 }

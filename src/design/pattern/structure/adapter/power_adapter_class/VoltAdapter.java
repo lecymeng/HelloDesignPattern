@@ -6,8 +6,8 @@ package design.pattern.structure.adapter.power_adapter_class;
  * desc: Adapter 角色
  */
 public class VoltAdapter extends Volt220 implements FiveVolt {
-    @Override
-    public int getVolt5() {
-        return 5;
-    }
+  @Override
+  public int getVolt5() {
+    return 5;
+  }
 }

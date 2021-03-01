@@ -6,13 +6,13 @@ package design.pattern.structure.proxy.sample;
  * desc:
  */
 public class Test {
-    public static void main(String[] args) {
-        ILawsuit weico = new Weicools();
-        ILawsuit layer = new ProxyLayer(weico);
+  public static void main(String[] args) {
+    ILawsuit weico = new Weicools();
+    ILawsuit layer = new ProxyLayer(weico);
 
-        layer.submit();
-        layer.burden();
-        layer.defend();
-        layer.finish();
-    }
+    layer.submit();
+    layer.burden();
+    layer.defend();
+    layer.finish();
+  }
 }
